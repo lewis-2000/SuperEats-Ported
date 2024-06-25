@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Order Food to your door">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="icon" href="./assets/images/company/flammyTechLogo.png" type="image/png" >
+    <title> <%= title  %> </title>
+</head>
+<body>
+
+
+    <div class="error">
+        <div class="error-status">
+            <h1 class="news-logo"><a href="/"><span class="white-text">Super</span><span class="orange-text">Eats</span> </a></h1>
+
+            <h3 class="error-status-message">Error <span class="red-text">404</span> - Bad Request</h3>
+
+            <p>It's not you, It's us. The Information you requested is not available. Try going back or visiting another site link</p>
+
+            <div class="error-status-links">
+                <button type="button" onclick="window.location.href='/'" <h4 class="news-logo"> Go Back to <a href="/"><span class="white-text">Super</span><span class="orange-text">Eats</span> </a></h4></button>
+
+                <button class="error-ticket" onclick="window.location.href='mailto:flammylewis2000@outlook.com?subject=Error%20report'"> Report Error </button>
+
+            </div>
+
+        </div>
+
+        <div class="error-quote">
+
+            <h1> " <%= quote %> "</h1>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(error => {
+              console.error('Service Worker registration failed:', error);
+            });
+        }
+      </script>
+</body>
+</html>

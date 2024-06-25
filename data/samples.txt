@@ -1,0 +1,335 @@
+Classic Burger:
+
+MealId: 101
+Name: "Classic Burger"
+Description: "A juicy beef patty with lettuce, tomato, onion, and special sauce on a toasted sesame seed bun."
+Price: 8
+Category: "Burgers"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/classic-burger.jpg"
+Mushroom Risotto:
+
+MealId: 102
+Name: "Mushroom Risotto"
+Description: "Creamy Arborio rice cooked with a variety of mushrooms, Parmesan cheese, and fresh herbs."
+Price: 14
+Category: "Italian"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/mushroom-risotto.jpg"
+BBQ Pulled Pork Sandwich:
+
+MealId: 103
+Name: "BBQ Pulled Pork Sandwich"
+Description: "Slow-cooked pulled pork smothered in barbecue sauce, served in a soft bun with coleslaw."
+Price: 12
+Category: "Sandwiches"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/pulled-pork-sandwich.jpg"
+Caprese Salad:
+
+MealId: 104
+Name: "Caprese Salad"
+Description: "Fresh mozzarella, ripe tomatoes, and basil drizzled with balsamic glaze."
+Price: 10
+Category: "Salads"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/caprese-salad.jpg"
+Shrimp Scampi Pasta:
+
+MealId: 105
+Name: "Shrimp Scampi Pasta"
+Description: "Tender shrimp sautéed in garlic and white wine, tossed with linguine and fresh parsley."
+Price: 16
+Category: "Seafood"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/shrimp-scampi-pasta.jpg"
+Vegetable Pad Thai:
+
+MealId: 106
+Name: "Vegetable Pad Thai"
+Description: "Rice noodles stir-fried with tofu, bean sprouts, peanuts, and a tangy tamarind sauce."
+Price: 13
+Category: "Asian"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/vegetable-pad-thai.jpg"
+Chicken Caesar Wrap:
+
+MealId: 107
+Name: "Chicken Caesar Wrap"
+Description: "Grilled chicken, romaine lettuce, Parmesan cheese, and Caesar dressing wrapped in a flour tortilla."
+Price: 11
+Category: "Wraps"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/chicken-caesar-wrap.jpg"
+Vegetarian Sushi Roll:
+
+MealId: 108
+Name: "Vegetarian Sushi Roll"
+Description: "Avocado, cucumber, and carrot rolled in seasoned rice and seaweed, served with soy sauce and pickled ginger."
+Price: 9
+Category: "Sushi"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/vegetarian-sushi-roll.jpg"
+Lemon Herb Grilled Chicken:
+
+MealId: 109
+Name: "Lemon Herb Grilled Chicken"
+Description: "Tender chicken breast marinated in lemon and herbs, grilled to perfection, and served with roasted vegetables."
+Price: 15
+Category: "Grilled Entrees"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/grilled-lemon-herb-chicken.jpg"
+Vegetable Quesadilla:
+
+MealId: 110
+Name: "Vegetable Quesadilla"
+Description: "A cheesy quesadilla filled with sautéed bell peppers, onions, black beans, and corn."
+Price: 10
+Category: "Mexican"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/vegetable-quesadilla.jpg"
+Salmon Teriyaki Bowl:
+
+MealId: 111
+Name: "Salmon Teriyaki Bowl"
+Description: "Grilled salmon glazed with teriyaki sauce, served over steamed rice with broccoli and carrots."
+Price: 17
+Category: "Bowls"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/salmon-teriyaki-bowl.jpg"
+Margherita Flatbread:
+
+MealId: 112
+Name: "Margherita Flatbread"
+Description: "Flatbread topped with fresh tomatoes, mozzarella, basil, and a drizzle of balsamic glaze."
+Price: 13
+Category: "Flatbreads"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/margherita-flatbread.jpg"
+Vegan Buddha Bowl:
+
+MealId: 113
+Name: "Vegan Buddha Bowl"
+Description: "A nourishing bowl with quinoa, roasted sweet potatoes, kale, avocado, and tahini dressing."
+Price: 14
+Category: "Vegan"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/vegan-buddha-bowl.jpg"
+Hawaiian Poke Bowl:
+
+MealId: 114
+Name: "Hawaiian Poke Bowl"
+Description: "Fresh ahi tuna cubes marinated in soy sauce and sesame oil, served over rice with pineapple and seaweed."
+Price: 16
+Category: "Poke Bowls"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/hawaiian-poke-bowl.jpg"
+Butternut Squash Ravioli:
+
+MealId: 115
+Name: "Butternut Squash Ravioli"
+Description: "Homemade ravioli stuffed with roasted butternut squash and topped with sage brown butter sauce."
+Price: 15
+Category: "Pasta"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/butternut-squash-ravioli.jpg"
+Teriyaki Beef Skewers:
+
+MealId: 116
+Name: "Teriyaki Beef Skewers"
+Description: "Tender beef skewers marinated in teriyaki sauce and grilled to perfection, served with sesame seeds."
+Price: 18
+Category: "Appetizers"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/teriyaki-beef-skewers.jpg"
+Southwest Chicken Salad:
+
+MealId: 117
+Name: "Southwest Chicken Salad"
+Description: "Grilled chicken, black beans, corn, avocado, and tortilla strips over a bed of mixed greens with chipotle ranch dressing."
+Price: 12
+Category: "Salads"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/southwest-chicken-salad.jpg"
+Eggplant Parmesan:
+
+MealId: 118
+Name: "Eggplant Parmesan"
+Description: "Sliced eggplant coated in breadcrumbs, baked with marinara sauce and melted mozzarella, served with spaghetti."
+Price: 14
+Category: "Italian"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/eggplant-parmesan.jpg"
+Thai Green Curry with Tofu:
+
+MealId: 119
+Name: "Thai Green Curry with Tofu"
+Description: "Creamy green curry with tofu, bamboo shoots, and bell peppers, served with jasmine rice."
+Price: 16
+Category: "Curries"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/thai-green-curry-tofu.jpg"
+Caramel Apple Pie:
+
+MealId: 120
+Name: "Caramel Apple Pie"
+Description: "A classic apple pie with a drizzle of caramel sauce, served warm with a scoop of vanilla ice cream."
+Price: 8
+Category: "Desserts"
+IsVegetarian: true
+IsVegan: false
+IsGlutenFree: false
+ImageUrl: "https://example.com/caramel-apple-pie.jpg"
+
+
+
+-----------------------------------------Kenyan--------------------------------------------------------
+
+Nyama Choma Platter:
+
+MealId: 201
+Name: "Nyama Choma Platter"
+Description: "Grilled beef or goat meat, marinated in Kenyan spices, served with a side of kachumbari (tomato and onion salad)."
+Price: 800
+Category: "Grilled Meats"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/nyama-choma.jpg"
+Ugali with Sukuma Wiki:
+
+MealId: 202
+Name: "Ugali with Sukuma Wiki"
+Description: "A staple Kenyan dish of stiff maize porridge (ugali) served with sautéed collard greens (sukuma wiki) and a hint of spices."
+Price: 300
+Category: "Vegetarian"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/ugali-sukuma-wiki.jpg"
+Nyama Irio:
+
+MealId: 203
+Name: "Nyama Irio"
+Description: "Mashed potatoes, green peas, corn, and tender beef mixed together, seasoned with herbs and spices."
+Price: 600
+Category: "Mashed Dishes"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/nyama-irio.jpg"
+Githeri Stew:
+
+MealId: 204
+Name: "Githeri Stew"
+Description: "A hearty stew made with a mixture of boiled maize and beans, cooked with vegetables and a flavorful broth."
+Price: 400
+Category: "Stews"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/githeri-stew.jpg"
+Chapati and Mahindi Choma:
+
+MealId: 205
+Name: "Chapati and Mahindi Choma"
+Description: "Soft and flaky chapati served with roasted and spiced maize (mahindi choma) for a delicious and filling meal."
+Price: 500
+Category: "Breads"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: false
+ImageUrl: "https://example.com/chapati-mahindi-choma.jpg"
+Samosa Ya Kunde:
+
+MealId: 206
+Name: "Samosa Ya Kunde"
+Description: "Spiced black-eyed pea samosas, deep-fried to golden perfection, and served with a tangy tamarind dipping sauce."
+Price: 250
+Category: "Appetizers"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: false
+ImageUrl: "https://example.com/samosa-ya-kunde.jpg"
+Sukuma Wiki and Ndengu:
+
+MealId: 207
+Name: "Sukuma Wiki and Ndengu"
+Description: "Sautéed collard greens (sukuma wiki) and green grams (ndengu), cooked in a rich tomato and coconut sauce."
+Price: 450
+Category: "Vegetarian"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: true
+ImageUrl: "https://example.com/sukuma-wiki-ndengu.jpg"
+Fish Stew with Coconut Rice:
+
+MealId: 208
+Name: "Fish Stew with Coconut Rice"
+Description: "Fresh fish stewed in a flavorful coconut broth, served with fragrant coconut rice and plantains."
+Price: 700
+Category: "Seafood"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/fish-stew-coconut-rice.jpg"
+Kenyan Pilau:
+
+MealId: 209
+Name: "Kenyan Pilau"
+Description: "Spiced rice cooked with meat (chicken, beef, or lamb), onions, and a blend of aromatic spices for a flavorful one-pot dish."
+Price: 650
+Category: "Rice Dishes"
+IsVegetarian: false
+IsVegan: false
+IsGlutenFree: true
+ImageUrl: "https://example.com/kenyan-pilau.jpg"
+Mandazi and Chai:
+
+MealId: 210
+Name: "Mandazi and Chai"
+Description: "Deep-fried sweet dough pastries (mandazi) served with hot and spiced Kenyan tea (chai) for a delightful snack."
+Price: 200
+Category: "Snacks"
+IsVegetarian: true
+IsVegan: true
+IsGlutenFree: false
+ImageUrl: "https://example.com/mandazi-chai.jpg"

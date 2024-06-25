@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Order Food to your door">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="icon" href="./assets/images/company/flammyTechLogo.png" type="image/png" >
+    <title>News</title>
+</head>
+<body>
+    <header>
+        <h2 class="news-logo"><a href="/"><span class="white-text">Super</span><span class="orange-text">Eats</span> </a></h2>
+        <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="news-hero">
+        <div class="news-hero-message">
+            <div class="news-hero-stuff">
+                <h1>Message</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+
+            </div>
+        </div>
+
+        <div class="news-hero-img"></div>
+
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="article">
+            <div class="blog-img"></div>
+            <div class="blog-article">
+                <div class="blog-article-title">
+                    Second divided from form fish beast made every of seas all gather
+                </div>
+
+                <div class="blog-info">
+                    <h5>Author: <span class="orange-text">Lewis Ng'ang'a</span></h5>
+                    <h5>Comments: 5</h5>
+                </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minima aut vel tempore asperiores qui illum assumenda error voluptas soluta quas, iusto delectus voluptatem rerum laboriosam eum ea eveniet nihil? Similique impedit dolorum ad soluta exercitationem doloremque amet laudantium distinctio vel aliquid omnis ab eaque quo ex ratione deserunt dolore placeat, porro cupiditate maiores. Veniam minima aliquam pariatur quo ratione esse itaque sapiente dignissimos, maiores molestias, saepe ipsum sed excepturi odit maxime possimus optio facilis. Amet aspernatur necessitatibus minima iste, corrupti maxime qui suscipit quasi minus eius at excepturi sunt quia placeat delectus blanditiis tenetur, accusamus illum! Earum quae, consectetur, rem ea error deserunt voluptas eaque enim voluptatum eveniet, quaerat temporibus repellendus vel et nemo accusantium expedita neque ducimus natus totam. Enim accusamus reiciendis exercitationem in tenetur commodi ducimus laudantium quasi dolore excepturi laboriosam voluptatum temporibus esse iusto eaque repellat quibusdam cupiditate, neque corporis animi ipsa libero perspiciatis nisi? Nostrum corrupti possimus deserunt! Quia ut ea dolores natus accusamus! Molestias eos voluptatem pariatur ut sed, ipsa obcaecati veritatis fugit hic dolorum tenetur in illum consectetur qui laboriosam porro sit eligendi minus nesciunt, natus, officiis suscipit. Fugiat quod sint, quo dolorum corrupti officia excepturi veritatis recusandae numquam. Est laboriosam totam voluptatibus?
+                    </p>
+                
+            </div>
+            
+        </div>
+        
+        <div class="blog-search-options">
+            <form action="">
+                <input type="text" name="blog-search" id="blog-search" placeholder="Search Blog">
+                <input class="blog-search-btn" type="submit" value="Search">
+            </form>
+
+            <div class="recent-blogs">
+                <h2>Recent Blogs</h2>
+
+                <div class="recent-blog">
+                    <div class="recent-blog-img"></div>
+                    <div class="recent-blog-description"></div>
+                </div>
+
+                <div class="recent-blog">
+                    <div class="recent-blog-img"></div>
+                    <div class="recent-blog-description"></div>
+                </div>
+
+                <div class="recent-blog">
+                    <div class="recent-blog-img"></div>
+                    <div class="recent-blog-description"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        footer
+    </footer>
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(error => {
+              console.error('Service Worker registration failed:', error);
+            });
+        }
+      </script>
+</body>
+</html>

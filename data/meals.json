@@ -1,0 +1,69 @@
+{
+    "meals": [
+      {
+        "mealId":1,
+        "name": "Pizza",
+        "description": "A juicy beef patty with lettuce, tomato, onion, and special sauce on a toasted sesame seed bun.",
+        "price": 8,
+        "category": "Burgers",
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "imageUrl": "./assets/images/pizza.jpg",
+        "videoUrl": "./assets/videos/pizza.mp4"
+      },
+
+      {
+        "mealId":2,
+        "name": "Tofu",
+        "description": "A juicy beef patty with lettuce, tomato, onion, and special sauce on a toasted sesame seed bun.",
+        "price": 8,
+        "category": "Burgers",
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "imageUrl": "./assets/images/tofu.jpg",
+        "videoUrl": "./assets/videos/tofu.mp4"
+      },
+
+      {
+        "mealId":3,
+        "name": "Salmon Teriyaki",
+        "description": "Grilled salmon glazed with teriyaki sauce, served over steamed rice with broccoli and carrots.",
+        "price": 17,
+        "category": "Bowls",
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "imageUrl": "./assets/images/salmonTeriyakiBowl.jpg",
+        "videoUrl": "./assets/videos/salmonTeriyakiBowl.mp4"
+      },
+
+      {
+        "mealId":4,
+        "name": "Fish Stew",
+        "description": "Fresh fish stewed in a flavorful coconut broth, served with fragrant coconut rice and plantains.",
+        "price": 7,
+        "category": "seafood",
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "imageUrl": "./assets/images/fishStew.jpg",
+        "videoUrl": "./assets/videos/coconutRice.mp4"
+      },
+
+      {
+        "mealId":5,
+        "name": "Carmel Apple pie",
+        "description": "A classic apple pie with a drizzle of caramel sauce, served warm with a scoop of vanilla ice cream.",
+        "price": 8,
+        "category": "Desserts",
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "imageUrl": "./assets/images/carmelApplePie.jpg",
+        "videoUrl": "./assets/videos/caramelApplePie.mp4"
+      }
+    ]
+  }
+  

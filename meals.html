@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="Order Food to your door" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link
+      rel="icon"
+      href="./assets/images/company/flammyTechLogo.png"
+      type="image/png"
+    />
+    <script src="./scripts/mealsTab.js" defer></script>
+    <script src="./scripts/assetswap.js" defer></script>
+    <script src="./scripts/cart.js" defer></script>
+
+    <title>Meals</title>
+  </head>
+
+  <body class="meals-body">
+    <header>
+      <h2>
+        <a href="/"
+          ><span class="white-text">Super</span
+          ><span class="orange-text">Eats</span>
+        </a>
+      </h2>
+      <ul class="nav">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/news.html">News</a></li>
+        <li id="cart-link">
+          <img
+            class="cart-img"
+            src="./assets/images/icons/cart.png"
+            alt="cart link"
+          />
+        </li>
+        <li>Contact</li>
+      </ul>
+    </header>
+
+    <section id="categories" class="categories meal-categories">
+      <ul>
+        <li class="active" onclick="openMealsTab('tab1')" data-tab="tab1">
+          Vegan
+        </li>
+        <li onclick="openMealsTab('tab2')" data-tab="tab2">Vegetarian</li>
+        <li onclick="openMealsTab('tab3')" data-tab="tab3">Local</li>
+        <li onclick="openMealsTab('tab4')" data-tab="tab4">Special</li>
+      </ul>
+
+      <div id="meals-container" class="meals-container">
+        <div id="tab1" class="tab-content meals"></div>
+        <div id="tab2" class="tab-content meals">Tab2</div>
+        <div id="tab3" class="tab-content meals">Tab3</div>
+        <div id="tab4" class="tab-content meals">Tab4</div>
+      </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <dialog id="cart-modal" class="cart-modal">
+      <div class="modal-content">
+        <span id="close-cart-modal" class="close">&times;</span>
+        <h2 class="cart-title">Your Basket</h2>
+        <div id="cart-items-container"></div>
+      </div>
+    </dialog>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then((registration) => {
+            console.log(
+              "Service Worker registered with scope:",
+              registration.scope
+            );
+          })
+          .catch((error) => {
+            console.error("Service Worker registration failed:", error);
+          });
+      }
+    </script>
+
+    <!-- Get Meals -->
+    <!-- Meals Switcher -->
+    <script src="./scripts/meals.js"></script>
+  </body>
+</html>
